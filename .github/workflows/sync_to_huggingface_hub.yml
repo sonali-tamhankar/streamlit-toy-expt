@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://sonali-tamhankar:$HF_TOKEN@https://huggingface.co/spaces/sonali-tamhankar/toy-experiment main
+        run: git push --force https://sonali-tamhankar:$HF_TOKEN@huggingface.co/spaces/sonali-tamhankar/toy-experiment main
